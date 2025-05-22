@@ -2,14 +2,14 @@
 A Real-Time Chat Application built with Django and WebSockets
 PingMe is a real-time chat application that allows users to send instant messages, engage in private conversations, and stay connected seamlessly. Built with Django, Django Channels, and WebSockets, it provides a smooth and responsive chatting experience.
 
-Features
-✅ User Authentication – Secure login, registration, and logout.
-✅ Real-Time Messaging – Powered by WebSockets for instant communication.
-✅ Private Chats – One-on-one messaging between users.
-✅ Online Status – See who's active in real-time.
-✅ Responsive UI – Works on desktop and mobile.
+# Features
+###  ✅ User Authentication – Secure login, registration, and logout.
+### ✅ Real-Time Messaging – Powered by WebSockets for instant communication.
+### ✅ Private Chats – One-on-one messaging between users.
+### ✅ Online Status – See who's active in real-time.
+### ✅ Responsive UI – Works on desktop and mobile.
 
-Technologies Used
+# Technologies Used
 Backend: Django, Django Channels
 
 Frontend: HTML, CSS, JavaScript, WebSockets
@@ -18,7 +18,7 @@ Database: SQLite (can be configured for PostgreSQL)
 
 Authentication: Django’s built-in auth system
 
-Installation
+# Installation
 Prerequisites
 Python (3.8+)
 
@@ -26,7 +26,7 @@ Django (4.0+)
 
 Redis (for production WebSocket support)
 
-Setup
+# Setup
 Clone the repository:
 
 bash
@@ -58,7 +58,7 @@ For real-time functionality, use:
 bash
 daphne PingMe.asgi:application
 (Ensure Redis is running if in production.)
-
+# Other
 Screenshots
 
 
