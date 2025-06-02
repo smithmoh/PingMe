@@ -29,25 +29,20 @@ Redis (for production WebSocket support)
 # Setup
 Clone the repository:
 
-bash
 git clone https://github.com/smithmoh/PingMe.git
 cd PingMe
 Create and activate a virtual environment:
 
-bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 Install dependencies:
 
-bash
 pip install -r requirements.txt
 Run migrations:
 
-bash
 python manage.py migrate
 Start the development server:
 
-bash
 python manage.py runserver
 Access the app at:
 http://127.0.0.1:8000/
@@ -55,7 +50,6 @@ http://127.0.0.1:8000/
 Running with WebSockets (ASGI)
 For real-time functionality, use:
 
-bash
 daphne PingMe.asgi:application
 (Ensure Redis is running if in production.)
 # Other
