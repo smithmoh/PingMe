@@ -30,7 +30,7 @@ Redis (for production WebSocket support)
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/PingMe.git
+git clone https://github.com/smithmoh/PingMe.git
 cd PingMe
 Create and activate a virtual environment:
 
